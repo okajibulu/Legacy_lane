@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "598745726375",
+    "project_id": "legacy-lane-ds-fb",
+    "storage_bucket": "legacy-lane-ds-fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598745726375:android:6af0f8637c8ec982154a82",
+        "android_client_info": {
+          "package_name": "com.legacylane.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598745726375-tj2sijlkdfhuuqr94ujgk37eh3ngk88q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfp_YrD2zxlEcCGuyqthSAH0rCPFDuGX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598745726375-tj2sijlkdfhuuqr94ujgk37eh3ngk88q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "598745726375-rdt9f6ag80store50gmukldbps8lnjt9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.legacylane.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+Folder PATH listing for volume Windows
+Volume serial number is 0000009D 6066:2969
+C:\PROJECTS\LEGACY_LANE\LEGACY_LANE_FRESH\LIB\LIB
+Invalid path - \PROJECTS\LEGACY_LANE\LEGACY_LANE_FRESH\LIB\LIB
+No subfolders exist 
+

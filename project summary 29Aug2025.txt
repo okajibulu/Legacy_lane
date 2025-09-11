@@ -1,0 +1,112 @@
+# Project: Legacy Lane - Onboarding Guide
+
+## 1. Project Overview
+
+**Project Name:** Legacy Lane
+**Description:** A multi-tenant structured platform for all forms or worldwide communities e.g alumni associations and professional networks to stay connected, celebrate milestones, and preserve memories across generations. Is to have tools like yearbook, support for groups and sub groups, market place, professional summary page, blog, chat, event planning tool, memorial page, parliamentary style meeting place with poll and voting functions, Robust admin console with lots of metrics and ability to assign admin modular styled admin roles to members, and an online award system built in to engage members more and encourage their continued involvements on the site. There are several tiers (free is up to 5 members but with ads., then from 6th member triggers a $15 yearlly renewal plus one time $2 payment by every new member. There will be some packages that would require added funds to activate for the community).  
+**Core Technology Stack:** Flutter (Dart) for front-end, Firebase (Auth, Firestore, Storage) for back-end.
+
+---
+
+## 2. Current Status & Health
+
+| Aspect | Status | Notes |
+| :--- | :--- | :--- |
+| **Authentication** | 🔴 Not Started | Landing page navigates to empty `LoginScreen` and `SignUpScreen`. |
+| **Firebase Setup** | 🟢 Connected | Project is correctly configured for **Legacy-Lane-DS-FB**. Connection tested on Landing Page. |
+| **Core Features** | 🟡 In Progress | Landing Page UI is complete and responsive. |
+| **State Management** | 🔴 Not Started | No state management solution (Provider, Bloc, etc.) implemented yet. |
+| **Database (Firestore)** | 🔴 Not Started | No data models or Firestore interactions implemented. |
+
+**Summary:** The project is in its **very early stages**. The foundation is laid with a connected Firebase project and a polished landing page. The next critical steps are building the authentication flow and setting up state management.
+
+---
+
+## 3. Getting Started (Development Setup)
+
+### Prerequisites
+- Flutter SDK (Channel stable, version recommended by `flutter doctor`)
+- Android Studio / Xcode (for building mobile versions)
+- A code editor (VS Code recommended)
+
+### Environment Setup
+1.  **Clone the repository**
+    ```bash
+    git clone <repository-url>
+    cd legacy_lane_fresh
+    ```
+2.  **Get dependencies**
+    ```bash
+    flutter pub get
+    ```
+3.  **Configure Firebase**
+    - *This project uses the Firebase project `Legacy-Lane-DS-FB`.*
+    - Ensure you have access to this project in the [Firebase Console](https://console.firebase.google.com/).
+    - The correct `google-services.json` and `GoogleService-Info.plist` files are already in place.
+4.  **Run the app**
+    ```bash
+    flutter run -d chrome # For web
+    # or
+    flutter run -d android # For Android
+    ```
+
+---
+
+## 4. Project Structure
+
+```
+lib/
+├── main.dart                 # Application entry point
+├── screens/
+│   ├── landing_page.dart    # ✅ COMPLETE: Main landing page
+│   ├── login_screen.dart    # ❌ TODO: Empty shell
+│   └── signup_screen.dart   # ❌ TODO: Empty shell
+├── services/
+│   └── auth_service.dart    # ❌ TODO: Will contain Firebase Auth logic
+└── widgets/
+    └── hover_widget.dart    # ❌ TODO: Custom widget
+```
+
+---
+
+## 5. Key Dependencies (`pubspec.yaml`)
+
+The project uses these major packages:
+- `firebase_core`: For Firebase integration.
+- `firebase_auth`: For user authentication. *(To be implemented)*
+- `cloud_firestore`: For the database. *(To be implemented)*
+- `logger`: **✅ Implemented.** Used for structured logging instead of `print()`. See `landing_page.dart` for example usage.
+
+---
+
+## 6. Immediate Next Steps & TODOs
+
+### High Priority
+1.  **Build Authentication Flow:** Implement UI and logic in `login_screen.dart` and `signup_screen.dart` using `firebase_auth`.
+2.  **State Management:** Choose and implement a state management solution to handle the user's auth state (e.g., Provider, Riverpod).
+3.  **Navigation:** Build a main home/dashboard screen and set up navigation to it after successful login.
+
+### Medium Priority
+4.  **Data Modeling:** Define Firestore data models for Users, Communities, Posts, etc.
+5.  **User Profile:** Create a user profile screen and functionality.
+
+---
+
+## 7. Known Issues & Quirks
+
+- **Debug Console Errors:** The Dart VM shows "Cannot send Null" errors in the console. This is a known Flutter Web debugger issue and **can be safely ignored**. It does not affect runtime performance.
+- **Legacy Project ID:** The codebase was previously connected to `legacy-lane-prod`. This has been corrected to `Legacy-Lane-DS-FB`, but be cautious of any hardcoded references if adding new Firebase features.
+
+---
+
+## 8. How to Test
+
+1.  **Landing Page:** Run the app. It should load the Legacy Lane landing page without errors.
+2.  **Firebase Connection:** Check the browser's debug console (F12). You should see success logs from the landing page's `initState`.
+3.  **Navigation:** Click the "Login" and "Get Started" buttons. They will navigate to empty screens (this is expected until they are built).
+
+---
+
+This guide provides a new developer with everything they need to understand the project's current state, get their environment running, and know exactly what to work on next. It turns your context into their context.
+
+Would you like help tackling any of the "Next Steps" listed in the guide, like starting the `LoginScreen`?

@@ -1,0 +1,38 @@
+## 📘 Legacy Lane – Version History
+
+### ✅ **Version 1 (v1): Initial Release**
+**Core Features:**
+- Member profile screen with:
+  - Name, photo, bio, and passed-on date
+- Tribute submission form:
+  - Text input
+  - Optional photo upload
+- Image compression before upload
+- Max image size: 2MB
+- Accepted formats: JPG, PNG
+- One media per tribute (photo or voice—not both)
+- Tribute list stream:
+  - Displays text, photo (if available), author, and date
+- Firestore integration for member data and tributes
+
+---
+
+### 🚀 **Version 2 (v2): Experience Upgrade**
+**UX & Visual Enhancements:**
+- 500-character limit on tribute text
+- Countdown timer for voice recording (45 seconds max)
+- Live recording status display
+- Voice recording with permission handling
+- Voice upload to Firebase Storage
+- Voice playback button in tribute list
+
+**Media Rules:**
+- Enforced one media per tribute (photo or voice)
+- Clear feedback when trying to attach both
+
+**Code Structure Improvements:**
+- Modularized `TributeForm` and `YearbookProfileScreen`
+- Full code drops for each version
+- Versioned development workflow introduced
+
+---
