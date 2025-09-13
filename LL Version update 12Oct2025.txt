@@ -1,0 +1,95 @@
+🧾 Legacy Lane Version History – Git Tag Format
+🔹 v4.0.0 – Core Foundation
+✅ Starter Tier (5 members free-for-life)
+
+✅ Member-Led pricing ($1.50/member/year)
+
+✅ Basic training module
+
+✅ Initial badge framework
+
+✅ Admin dashboard shell
+
+🔹 v4.0.0.1a – Slot-Based Expansion
+✅ Bulk-Extra tiers: 25, 50, 100 slots
+
+✅ Legacy Tier: Unlimited members
+
+✅ Slot tracking logic
+
+✅ Pricing table alignment
+
+✅ Admin slot allocation UI
+
+⏳ Tier upgrade automation
+
+🔹 v4.0.1 – Token Engine Activation
+✅ 7-day streak = 20 tokens
+
+✅ Missed day = 25% deduction from fixed reward
+
+✅ Token wallet UI
+
+✅ Token donation (member & community pool)
+
+⏳ Token redemption for subscription
+
+⏳ Token leaderboard
+
+🔹 v4.0.2 – Badge System Overhaul
+✅ Badge categories: Training, Streak, Contribution, Achievement, Honor
+
+✅ Badge visibility on profile
+
+✅ Admin badge controls
+
+✅ “Legacy Flame” & “Legacy Giver” badges
+
+⏳ Badge-based unlockables
+
+⏳ Badge analytics dashboard
+
+🔹 v4.0.3 – Streak Logic Refinement
+✅ Max 3 missed days per cycle
+
+✅ 2 consecutive misses = streak reset
+
+✅ Grace Token & Recovery Challenge
+
+✅ Streak progress bar UI
+
+✅ Streak leaderboard
+
+⏳ Streak-based badge unlocks
+
+🔹 v4.0.4 – Support & Engagement Layer
+✅ Centralized email support
+
+✅ “Welcome Back” banner after 14-day inactivity
+
+✅ Optional reactivation incentive
+
+⏳ Embedded support form
+
+⏳ Ticket ID system
+
+⏳ Support analytics
+
+🔹 v4.0.5 – Pricing Flexibility Update
+✅ 6-month option for Bulk-Extra & Legacy tiers
+
+✅ Updated pricing:
+
+25 slots: $20/6mo
+
+50 slots: $30/6mo
+
+100 slots: $55/6mo
+
+Legacy: $130/6mo
+
+✅ Pricing table alignment
+
+⏳ Tier adoption metrics
+
+⏳ Renewal tracking engine
